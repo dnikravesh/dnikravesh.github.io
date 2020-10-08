@@ -50,7 +50,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'calculator.jpg',
     title: 'Not your Average Calculator',
-    info: "It's just an average Calculator made with Vanilla Javascript.",
+    info: "It's just an average Calculator made with vanilla JavaScript.",
     info2: '',
     url: 'https://dnikravesh.github.io/calculator/',
     repo: '', // if no repo, the button will not show up
