@@ -32,27 +32,27 @@ export const projectsData = [
     id: nanoid(),
     img: 'lindseyeatsla.jpg',
     title: 'LindseyeatsLA Blog',
-    info: 'Wordpress Website',
+    info: 'A blog made with Wordpress.',
     info2: '',
     url: 'https://lindseyeatsla.com/',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'calculator.jpg',
-    title: 'Not your Average Calculator',
-    info: "It's just an average Calculator. Not just a looker this bad boy works as well.",
+    img: 'lindseybaruch.png',
+    title: 'LindseyBaruch.com',
+    info: 'A portfolio page made with Gatsby.',
     info2: '',
-    url: 'https://dnikravesh.github.io/calculator/',
+    url: 'https://lindseybaruch.com',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'soundofcircles.jpg',
-    title: 'Sound of Circles',
-    info: 'A game where circles come and go, sounds do too!',
+    img: 'calculator.jpg',
+    title: 'Not your Average Calculator',
+    info: "It's just an average Calculator made with Vanilla Javascript.",
     info2: '',
-    url: 'https://dnikravesh.github.io/soundofcircles/',
+    url: 'https://dnikravesh.github.io/calculator/',
     repo: '', // if no repo, the button will not show up
   },
 ];
