@@ -40,7 +40,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'lindseybaruch.png',
-    title: 'LindseyBaruch.com',
+    title: 'LindseyBaruch Portfolio',
     info: 'A portfolio page made with Gatsby.',
     info2: '',
     url: 'https://lindseybaruch.com',
