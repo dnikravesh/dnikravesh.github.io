@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f2f4;
+  font-family: "JetBrains Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: #798cd2;
+  color: white;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: rgba(119, 124, 141, 0.3);
+}
+
+::selection {
+  background: #798cd2;
+}

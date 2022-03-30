@@ -1,0 +1,36 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prepare": "husky install",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc --pretty --noEmit",
+    "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
+    "lint:fix": "eslint . --ext .js,.ts,.jsx,.tsx --fix",
+    "lint:styles": "stylelint **/*.css",
+    "lint:styles:fix": "stylelint **/*.css --fix",
+    "test:lint": "jest -c ./jest-runner-eslint.js --passWithNoTests",
+    "test:lint:styles": "jest -c ./jest-runner-stylelint.js --passWithNoTests"
+  },
+  "dependencies": {
+    "next": "12.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@delicious-simplicity/eslint-config": "^1.0.3",
+    "@types/node": "17.0.23",
+    "@types/react": "17.0.43",
+    "@types/react-dom": "17.0.14",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "jest-runner-eslint": "^1.0.0",
+    "jest-runner-stylelint": "^2.3.7",
+    "stylelint": "^14.5.3",
+    "stylelint-config-property-sort-order-smacss": "^9.0.0",
+    "typescript": "4.6.3"
+  }
+}
