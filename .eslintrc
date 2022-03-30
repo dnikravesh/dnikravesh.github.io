@@ -1,0 +1,22 @@
+{
+  "extends": ["@delicious-simplicity/eslint-config"],
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["@/components", "./components"],
+          ["@/context", "./context"],
+          ["@/data", "./data"],
+          ["@/drupal", "./drupal"],
+          ["@/hooks", "./hooks"],
+          ["@/lib", "./lib"],
+          ["@/request", "./request"],
+          ["@/styles", "./styles"],
+          ["@/types", "./types"]
+        ],
+        "extensions": [".ts", ".tsx", ".js", ".jsx", ".json"]
+      }
+    }
+  },
+  "ignorePatterns": ["/public/*"]
+}
